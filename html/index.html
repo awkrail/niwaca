@@ -12,17 +12,87 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 </head>
 <body>
+
+<nav id = "global-nav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header">Nav header</li>
+                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+
 <img id="top_image" src="../images/city.png">
 
 <div class="container">
-    <center>hello</center>
-    <p>
-        aaaaaaaaa<br>
-        aaa<br>
-        a<br>
-        aa<br>
-    </p>
+    <div id="About" style="margin-bottom: 80px">
+        <center><h1>About</h1></center>
+        <center><p>
+            芸情展は九州大学芸術工学部芸術情報設計学科3年有志によるプロジェクトです。
+        </p></center>
+        <div class="row">
+            <div class="col-xs-4">
+                <img src="../images/tsumuri.jpg">
+            </div>
+            <div class="col-xs-4">
+                <img src="../images/tsumuri.jpg">
+            </div>
+            <div class="col-xs-4">
+                <img src="../images/tsumuri.jpg">
+            </div>
+        </div>
+    </div>
+
+    <div id="Info" style="margin-bottom: 80px">
+        <center class="sub-title" style="margin-bottom: 100px;"><h1>Time and Place</h1></center>
+        <div class = "row time-and-place">
+            <div class="col-sm-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1662.3655441890767!2d130.427739775924!3d33.56036249516204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z5aSn5qmL44Or44ON44OD44OI!5e0!3m2!1sja!2sjp!4v1493869750260" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-6">
+                <h2>Time and Place</h2>
+                Place:大橋ルネット
+                Time:6/24(土), 6/25(日)
+            </div>
+        </div>
+    </div>
 </div>
+
+
+<div class="jumbotron" style="background-color: #A7F1FF">
+    <div class="container">
+        <div id="Works">
+            <center><h1>Works</h1></center>
+            <center>Comming Soon...</center>
+        </div>
+    </div>
+</div>
+
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
