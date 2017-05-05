@@ -21,6 +21,7 @@ $(function() {
     var floatMenu = function() {
         // スクロール位置がメニューのtop座標を超えたら固定にする
         if ($(window).scrollTop() > offsetTop) {
+            nav.slideDown("slow");
             nav.addClass('fixed');
             nav.css('opacity', 1);
         } else {
