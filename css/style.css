@@ -2,23 +2,35 @@ header {
     height: 100px;
 }
 
-@font-face {
-    font-family: 'Makinas-Scrap-5';
-    src: url('Makinas-Scrap-5.otf') format('opentype');
-}
-
 #global-nav {
     width: 100%;
+    opacity: 0;
+    z-index: 1;
 }
 
 .fixed {
     position: fixed;
     top: 0;
-    z-index: 1;
+    opacity: 1;
 }
 
+@font-face {
+    font-family: 'Makinas-Scrap-5';
+    src: url('./Makinas-Scrap-5.otf') format('opentype');
+}
+
+body {
+    font-family: Makinas-Scrap-5;
+}
+
+
 #Info {
-    margin-top: 150px;
+    margin-top: 300px;
+}
+
+
+#Works {
+    margin-top: 300px;
 }
 
 
