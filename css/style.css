@@ -36,5 +36,18 @@ body {
     margin-top: 300px;
 }
 
+#footer {
+    margin-top: 300px;
+    background-color: #5e5e5e;
+}
+
+.footer-description {
+    margin-top: 50px;
+}
+
+.icons {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 
