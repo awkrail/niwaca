@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>niwaca</title>
+    <title>Niwaca</title>
 
     <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet" media="screen and (min-width:768px)">
+    <link href="../css/smart_phone.css" rel="stylesheet" media="screen and (max-width:767px)">
 
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -15,33 +16,52 @@
 </head>
 <body onload="initialize();">
 
-<nav id = "global-nav" class="navbar navbar-default">
-    <div class="container">
+<!-- top nav -->
+<nav class="navbar navbar-default">
+
+    <div class="container"><!-- 無くても良い -->
+
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
+
+            <!-- logo img -->
+            <a class="navbar-brand" href="">
+                <img src="../images/logo.png" id="logo-img">
+            </a>
+
+            <!-- toggle -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-nav">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Niwaca</a>
+
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
+
+        <!-- top menu -->
+        <div class="collapse navbar-collapse" id="top-nav">
+
+            <!-- main navbar -->
             <ul class="nav navbar-nav">
-                <li><a href="#About">About</a></li>
-                <li><a href="#Info">Info</a></li>
-                <li><a href="#Works">Works</a></li>
+                <li>
+                    <a href="#About">About</a>
+                </li>
+                <li>
+                    <a href="#Info">Info</a>
+                </li>
+                <li>
+                    <a href="#Works">Works</a>
+                </li>
             </ul>
-        </div><!--/.nav-collapse -->
+        </div>
     </div>
+    <!-- end container -->
 </nav>
-
-
+<!-- end nav -->
 <img id="top_image" src="../images/city.png">
 
 <div class="container">
     <div id="About">
-        <center><h1 style="font-size: 100px">About</h1></center>
+        <center><h1 class="sub-title" id="sub-about">About</h1></center>
         <center><p>
             芸情展は九州大学芸術工学部芸術情報設計学科3年有志によるプロジェクトです。
         </p></center>
@@ -59,14 +79,14 @@
     </div>
 
     <div id="Info">
-        <center><h1 style="font-size: 100px">Information</h1></center>
+        <center><h1 class="sub-title" id="sub-info">Information</h1></center>
         <div class = "row time-and-place">
-            <div class="col-sm-6">
+            <div class="col-sm-8">
                 <div id="map_canvas" style="width: 500px; height: 450px">
                 </div>
             </div>
-            <div class="col-sm-6">
-                <h2>Time and Place</h2>
+            <div class="col-sm-4 contents">
+                <h2>Time and Place</h2><br />
                 Place:大橋ルネット<br />
                 Time:6/24(土), 6/25(日)
             </div>
@@ -74,7 +94,7 @@
     </div>
 
     <div id="Works">
-        <center><h1 style="font-size: 100px">Works</h1></center>
+        <center><h1 class="sub-title" id="sub-work">Works</h1></center>
         <center>Comming Soon...</center>
     </div>
 </div>
@@ -82,8 +102,8 @@
 <div id="footer">
     <div class="container">
         <p class="footer-description">
-        <center>Thank you for watching this site</center><br />
-        <center>Twitter, facebookで拡散していただけると嬉しいです。</center>
+        Thank you for watching this web site.<br />
+        Twitter, facebookで拡散していただけると嬉しいです。
         </p>
         <div class="icons">
             <center>
@@ -100,9 +120,7 @@
 
 
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="../js/jquery-3.2.1.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="../js/bootstrap.min.js"></script>
 <script src="../js/top.js"></script>
 </body>

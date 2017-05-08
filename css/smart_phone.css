@@ -26,6 +26,8 @@ header {
 
 .nav-icon{
     padding: 0;
+    height: 10px;
+    width: 10px;
 }
 
 .fixed {
@@ -45,15 +47,11 @@ body {
 }
 
 #top_image {
-    
+
 }
 
 .sub-title {
     font-size: 100px;
-}
-
-#About {
-    padding-top: 20px;
 }
 
 #sub-about {
@@ -63,7 +61,6 @@ body {
 
 #Info {
     margin-top: 300px;
-    padding-top: 20px;
 }
 
 #sub-info {
@@ -81,7 +78,6 @@ body {
 
 #Works {
     margin-top: 300px;
-    padding-top: 20px;
 }
 
 #sub-work {
@@ -102,5 +98,3 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
-
