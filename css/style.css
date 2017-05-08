@@ -56,6 +56,11 @@ body {
     padding-top: 20px;
 }
 
+.sub-logo {
+    height: 100px;
+    width: 100px;
+}
+
 #sub-about {
     border-bottom: thin solid #bce8f1;
 }

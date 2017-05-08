@@ -26,3 +26,11 @@ function initialize() {
         map : map          //表示する地図
     });
 }
+
+//スマホ用. google mapの処理を別で加える
+if(navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/)){
+    var canvas_map = $("#map_canvas");
+    var width = canvas_map.width();
+
+    canvas_map.css('height', width);
+}

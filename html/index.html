@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="niwaca" />
+    <meta property="og:description" content="九州大学芸術工学部芸術情報設計学科3年による展覧会:niwaca" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://niwaca.info" />
+    <meta property="og:image" content="../images/logo.png" />
+    <meta property="og:locale" content="ja_JP" />
     <title>Niwaca</title>
 
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -14,6 +20,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 </head>
+
 <body onload="initialize();">
 
 <!-- top nav -->
@@ -66,14 +73,17 @@
             芸情展は九州大学芸術工学部芸術情報設計学科3年有志によるプロジェクトです。
         </p></center>
         <div class="row">
-            <div class="col-sm-4">
-                <img src="../images/tsumuri.jpg">
+            <div class="col-xs-3">
+                <img class="sub-logo" src="../images/tsumuri.jpg">
             </div>
-            <div class="col-sm-4">
-                <img src="../images/tsumuri.jpg">
+            <div class="col-xs-3">
+                <img class="sub-logo" src="../images/tsumuri.jpg">
             </div>
-            <div class="col-sm-4">
-                <img src="../images/tsumuri.jpg">
+            <div class="col-xs-3">
+                <img class="sub-logo" src="../images/tsumuri.jpg">
+            </div>
+            <div class="col-xs-3">
+                <img class="sub-logo" src="../images/tsumuri.jpg">
             </div>
         </div>
     </div>
@@ -107,8 +117,8 @@
         </p>
         <div class="icons">
             <center>
-                <img src="../images/twitter.png" style="padding-right: 20px">
-                <img src="../images/facebook.png" style="padding-left: 20px">
+                <a href="http://twitter.com/share?url=http://niwaca.info&hashtags=%e8%8a%b8%e6%83%85%e5%b1%9517" onClick="window.open(encodeURI(decodeURI(this.href)), 'tweetwindow', 'width=650, height=470, personalbar=0, toolbar=0, scrollbars=1, sizable=1'); return false;" rel="nofollow"><img src="../images/twitter.png" style="padding-right: 20px" /></a>
+                <a href="http://www.facebook.com/share.php?u=http://niwaca.info" onclick="window.open(encodeURI(decodeURI(this.href)), 'FBwindow', 'width=554, height=470, menubar=no, toolbar=no, scrollbars=yes'); return false;" rel="nofollow"><img src="../images/facebook.png" style="padding-left: 20px"></a>
             </center>
         </div>
         <center style="margin-bottom: 50px">©Copyright 2017 All rights reserved by geijo15</center>
