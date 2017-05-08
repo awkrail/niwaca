@@ -6,6 +6,7 @@ $(window).on('load resize', function(){
     //cssに入れる
     $('#top_image').css('width', width);
     $('#top_image').css('height', height);
+
 });
 
 

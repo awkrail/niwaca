@@ -70,6 +70,11 @@ body {
     border-bottom: thin solid #e4b9c0;
 }
 
+#map_canvas {
+    width: 500px;
+    height: 450px;
+}
+
 .time-and-place {
     margin-top: 50px;
 }

@@ -44,14 +44,18 @@ header {
 body {
     font-family: Makinas-Scrap-5;
     color: #222222;
+    font-size: 20px;
 }
 
 #top_image {
-
 }
 
 .sub-title {
-    font-size: 100px;
+    font-size: 50px;
+}
+
+#About {
+    padding-top: 30px;
 }
 
 #sub-about {
@@ -61,10 +65,16 @@ body {
 
 #Info {
     margin-top: 300px;
+    padding-top: 30px;
 }
 
 #sub-info {
     border-bottom: thin solid #e4b9c0;
+}
+
+#map_canvas {
+    max-width: 200px;
+    height: 200px;
 }
 
 .time-and-place {
@@ -78,6 +88,7 @@ body {
 
 #Works {
     margin-top: 300px;
+    padding-top: 30px;
 }
 
 #sub-work {
