@@ -1,4 +1,5 @@
 //topページのサイズを読み取ってそのサイズの分に画像いっぱいにする
+
 $(window).on('load resize', function(){
     var width = $(window).width();
     var height = $(window).height();

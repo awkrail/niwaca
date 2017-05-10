@@ -69,8 +69,13 @@ body {
 }
 
 
+#city {
+    width: 100%;
+}
+
+
 #Info {
-    margin-top: 300px;
+    margin-top: 50px;
     padding-top: 30px;
 }
 
@@ -92,7 +97,7 @@ body {
 }
 
 #Works {
-    margin-top: 300px;
+    margin-top: 50px;
     padding-top: 30px;
 }
 

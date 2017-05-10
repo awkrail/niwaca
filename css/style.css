@@ -42,6 +42,7 @@ header {
 body {
     font-family: Makinas-Scrap-5;
     color: #222222;
+    font-size: 25px;
 }
 
 .center {
@@ -68,9 +69,13 @@ body {
     border-bottom: thin solid #bce8f1;
 }
 
+#city {
+    width: 100%;
+}
+
 
 #Info {
-    margin-top: 300px;
+    margin-top: 100px;
     padding-top: 20px;
 }
 
@@ -93,7 +98,7 @@ body {
 }
 
 #Works {
-    margin-top: 300px;
+    margin-top: 100px;
     padding-top: 20px;
 }
 
