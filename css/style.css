@@ -44,8 +44,11 @@ body {
     color: #222222;
 }
 
+.center {
+    text-align: center;
+}
+
 #top_image {
-    
 }
 
 .sub-title {
