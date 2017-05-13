@@ -30,8 +30,16 @@ function initialize() {
 
 //スマホ用. google mapの処理を別で加える
 if(navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/)){
+
     var canvas_map = $("#map_canvas");
     var width = canvas_map.width();
 
     canvas_map.css('height', width);
+}
+
+//スマホ用. google mapの処理を別で加える
+if(navigator.userAgent.match(/(iPhone|iPod|Android)/)){
+    var image = $("#top_image");
+
+    image.attr("src", "../images/test.png");
 }
