@@ -63,33 +63,65 @@ body {
     border-bottom: thin solid #bce8f1;
 }
 
-.sub-logo {
-    width: 50px;
-    height: 50px;
-    padding: 0;
+
+@media screen and (max-width: 599px){
+    .sub-logo {
+        width: 50px;
+        height: 50px;
+        padding: 0;
+    }
+    #movie{
+        width: 50px;
+    }
+
+    #game{
+        width: 50px;
+    }
+
+    #cg{
+        width: 50px;
+    }
+
+    #picture{
+        width: 50px;
+    }
+
+    .sub-logo-description {
+        height: auto;
+        text-align: center;
+    }
+
 }
 
-#movie{
-    width: 50px;
+
+@media screen and (min-width: 600px){
+    .sub-logo {
+        width: 100px;
+        height: 100px;
+        padding: 0;
+    }
+    #movie{
+        width: 90px;
+    }
+
+    #game{
+        width: 100px;
+    }
+
+    #cg{
+        width: 100px;
+    }
+
+    #picture{
+        width: 100px;
+    }
+
+    .sub-logo-description {
+        height: auto;
+        text-align: center;
+    }
 }
 
-#game{
-    width: 50px;
-}
-
-#cg{
-    width: 50px;
-}
-
-#picture{
-    width: 50px;
-}
-
-
-.sub-logo-description {
-    height: auto;
-    text-align: center;
-}
 
 .sub-logos {
     margin-bottom: 50px;
