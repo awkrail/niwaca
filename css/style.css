@@ -61,9 +61,33 @@ body {
 }
 
 .sub-logo {
-    height: 100px;
-    width: 100px;
 }
+
+.sub-logo-description {
+    height: auto;
+    text-align: center;
+}
+
+.sub-logos {
+    margin-bottom: 150px;
+}
+
+#movie{
+    width: 190px;
+}
+
+#game{
+    width: 210px;
+}
+
+#cg{
+    width: 230px;
+}
+
+#picture{
+    width: 230px;
+}
+
 
 #sub-about {
     border-bottom: thin solid #bce8f1;
