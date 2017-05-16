@@ -1,5 +1,5 @@
 //topページのサイズを読み取ってそのサイズの分に画像いっぱいにする
-
+/**
 $(window).on('load resize', function(){
     var width = $(window).width();
     var height = $(window).height();
@@ -9,7 +9,7 @@ $(window).on('load resize', function(){
     $('#top_image').css('height', height);
 
 });
-
+**/
 
 //google mapのための関数
 function initialize() {

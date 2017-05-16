@@ -50,6 +50,8 @@ body {
 }
 
 #top_image {
+    width: 100%;
+    height: auto;
 }
 
 .sub-title {
